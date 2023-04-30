@@ -72,6 +72,7 @@
   .header {
     background-color: #f44336;
     padding: 30px 40px;
+    border-radius: 25px;
     color: white;
     text-align: center;
   }
@@ -87,17 +88,18 @@
   input {
     margin: 0;
     border: none;
-    border-radius: 0;
+    border-radius: 25px;
     width: 70%;
-    padding: 12px;
+    padding: 20px;
     float: left;
     font-size: 15px;
   }
   
   /* Style the "Add" button */
   .addBtn {
-    padding: 10px;
-    width: 25%;
+    padding: 20px;
+    width: 15%;
+    border-radius: 25px;
     background: #00ff15;
     color: #ffffff;
     float: left;
@@ -105,7 +107,6 @@
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
   }
   
   .addBtn:hover {
